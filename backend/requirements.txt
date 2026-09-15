@@ -1,0 +1,15 @@
+Django>=6.0,<7.0
+djangorestframework
+psycopg[binary]
+python-dotenv
+celery[redis]
+redis
+djangorestframework-simplejwt
+django-cors-headers
+drf-spectacular
+django-filter
+pytest
+pytest-django
+ruff
+black
+isort

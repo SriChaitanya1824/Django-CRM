@@ -1,0 +1,3 @@
+export function Login() { return <Auth title="Login" />; }
+export function Register() { return <Auth title="Register" />; }
+export function Auth({ title }: { title: string }) { return <main className="grid min-h-screen place-items-center bg-slate-100 p-4"><form className="w-full max-w-md rounded-md border bg-white p-6"><h1 className="mb-5 text-2xl font-semibold">{title}</h1><input className="mb-3 w-full rounded-md border px-3 py-2" placeholder="Email" /><input className="mb-3 w-full rounded-md border px-3 py-2" placeholder="Password" type="password" /><button className="w-full rounded-md bg-ink py-2 text-white">{title}</button></form></main>; }

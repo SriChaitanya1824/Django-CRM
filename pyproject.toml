@@ -1,0 +1,16 @@
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+extend-exclude = ["*/migrations/*.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "RUF"]
+ignore = ["E501", "RUF012"]
+
+[tool.black]
+line-length = 120
+target-version = ["py312"]
+
+[tool.isort]
+profile = "black"
+line_length = 120

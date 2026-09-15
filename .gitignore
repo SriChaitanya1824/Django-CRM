@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+.build/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+**/docker-compose.override.yml
+
+# Database
+*.sqlite3
+
+# Coverage
+htmlcov/
+.coverage
+.env
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+*.sqlite3
+media/
+node_modules/
+dist/
+build/
+.DS_Store
+coverage/
+.pytest_cache/
